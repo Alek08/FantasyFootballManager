@@ -14,3 +14,8 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 7.Go otvarate proektot virtual-football-manager kako react-Js aplikacija 
 8.gi startuvate dvete
 
+
+
+
+
+![](images/Leaguetable.jpg)
