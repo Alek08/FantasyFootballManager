@@ -1,0 +1,524 @@
+
+//////////////////////////TEAM///////////////////////////////////////
+###
+POST http://localhost:8080/api/team/add_team
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+name=Chelsea2222
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/team/get_all_teams
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/team/most_goals_sum
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+###
+GET http://localhost:8080/api/team/most_goals_teams
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+PATCH http://localhost:8080/api/team/Chelsea
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+total_points=11&wins=5&draws=2&losts=1
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/team/Chelsea
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+
+###
+GET http://localhost:8080/api/team/playedmatches?teamName=Arsenal
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+###
+DELETE http://localhost:8080/api/team/Chelsea
+professorId: riste.stojanov
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+//////////////////////////PLAYER///////////////////////////////////////
+###
+POST http://localhost:8080/api/player/add_player
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+name=Lampard&team=Chelsea2222&pos=MD
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/player/get_all_players
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/player/get_top_players
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/player?pos=MID&teamId=1
+
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/player/get_all_players_in_team/1
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+PATCH http://localhost:8080/api/player/Sanchez
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+name=Sanchez&newname=newHazard&total_points=100
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/player/Hazard
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+
+###
+DELETE http://localhost:8080/api/player/newHazard
+professorId: riste.stojanov
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+
+//////////////////////////Match///////////////////////////////////////
+###
+POST http://localhost:8080/api/match/add_match
+id: alek
+Content-Type: application/json
+
+{
+  "homeTeam":{
+    "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+  },
+  "awayTeam":{
+    "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+  },
+  "homeTeamScores":"1",
+  "awayTeamScores":"2",
+  "goalsPlayers":
+  [
+    {
+      "name": "Hazard","team":
+    {
+      "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+    },"id": 1}],
+  "assistsPlayers":[]
+
+}
+> {%
+client.test("Request executed successfully", function() {
+
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/match/get_all_matches
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+PATCH http://localhost:8080/api/match/1
+id: alek
+Content-Type: application/json
+
+{
+  "homeTeam":{
+    "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Spurs"
+
+  },
+  "awayTeam":{
+    "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+  },
+  "homeTeamScores":"5",
+  "awayTeamScores":"5",
+  "goalsPlayers":
+  [
+    {
+      "name": "Hazard","team":
+    {
+      "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+    },"id": 1}],
+  "assistsPlayers":[{
+    "name": "Hazard","team":
+    {
+      "total_points": 0,"wins": 0,"losts": 0,"draws": 0,"id": 1,"teamName": "Chelsea"
+
+    },"id": 1}]
+
+}
+
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/match/1
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+
+###
+DELETE http://localhost:8080/api/match/1
+professorId: riste.stojanov
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+
+//////////////////////////GameWeek///////////////////////////////////////
+###
+POST http://localhost:8080/api/gameweek/add_gameweek
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+gameWeekName=Kolo 1
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+POST http://localhost:8080/api/gameweek/add_match_to_gameweek
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+gameWeekId=1&matchId=1
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/gameweek/get_all_gameweeks
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+###
+GET http://localhost:8080/api/gameweek?gameweekname=Kolo 1
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+
+###
+GET http://localhost:8080/api/gameweek/1
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+
+
+###
+PATCH http://localhost:8080/api/gameweek/1
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+newname=Kolo 1
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+DELETE http://localhost:8080/api/gameweek/2
+professorId: riste.stojanov
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+
+//eden request param gore so?
+
+////////////////////////////USER////////////////////////////////
+###
+GET http://localhost:8080/api/user?email=nekojmaail&password=nekojpass
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+###
+GET http://localhost:8080/api/user/get_all_users
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+###
+GET http://localhost:8080/api/user/get_all_users_with_fantasy_teams
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+POST http://localhost:8080/api/user
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+name=jas&email=nekojmaail&password=nekojpass
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+
+
+
+//////////////////////////FANTASY TEAM///////////////////////////////////////
+###
+POST http://localhost:8080/api/fantasyteam/add_fantasy_team
+id: alek
+Content-Type: application/json
+
+{
+  "name":"BLUELIONS",
+  "user_email":"nekojmaail",
+  "total_points":"5",
+  "players": [
+    {
+      "name": "Lampard",
+      "total_points": 0,
+      "position": "MD",
+      "team": {
+        "teamName": "Chelsea2222",
+        "total_points": 0,
+        "played_matches": 0,
+        "wins": 0,
+        "losts": 0,
+        "draws": 0,
+        "id": 1
+      },
+      "id": 1
+    }
+  ]
+
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+###
+GET http://localhost:8080/api/fantasyteam/get_all_fantasy_teams
+id: alek
+Content-Type: application/x-www-form-urlencoded
+
+> {%
+client.test("Request executed successfully", function() {
+
+});
+%}
+###
+
+
+
+
+
+
+
+
+
