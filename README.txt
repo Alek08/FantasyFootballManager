@@ -18,7 +18,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 
 
-![](/images/Leaguetable.jpg)
+![](https://github.com/Alek08/FantasyFootballManager/blob/master/images/Leaguetable.jpg)
 
 
 
