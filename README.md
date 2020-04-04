@@ -84,25 +84,21 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 админот внесе погрешни податоци<br />
 админот ќе може тоа да го семени:<br />
 
-![](images/adminteam.jpg)<br />
-
+![](images/adminteam.jpg)
 <br />
 Со одбирање на Edit копчето.<br />
 ![](images/adminteamedit.jpg)
 <br />
 
 
-
-![](images/adminplayer.jpg)<br />
-
+![](images/adminplayer.jpg)
 <br />
 Со одбирање на Edit копчето.<br />
 ![](images/adminplayeredit.jpg)
 <br />
 
 
-![](images/adminmatch.jpg)<br />
-
+![](images/adminmatch.jpg)
 <br />
 Со одбирање на Edit копчето.<br />
 ![](images/adminmatchedit.jpg)
