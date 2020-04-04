@@ -25,11 +25,16 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 ![](images/login.jpg)
 
 <br />
-![](images/createfantasyteam.jpg.jpg)
+![](images/createfantasyteam.jpg)
+
+<br />
+![](images/fantasyteamerror.jpg)
+Потребно е прво да се одбере позиција па потоа да се одбере еден од играчите од листата понудени
+
+<br />
 
 
-
-
+![](images/fantasyteam.jpg)
 
 
 
