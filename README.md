@@ -84,7 +84,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 админот внесе погрешни податоци<br />
 админот ќе може тоа да го семени:<br />
 
-Team 
+**Team** 
 <br />
 <br />
 ![](images/adminteam.jpg)
@@ -93,7 +93,7 @@ Team
 ![](images/adminteamedit.jpg)
 <br />
 
-Player 
+**Player** 
 <br />
 <br />
 ![](images/adminplayer.jpg)
@@ -102,7 +102,7 @@ Player
 ![](images/adminplayeredit.jpg)
 <br />
 
-Match 
+**Match**  
 <br />
 <br />
 ![](images/adminmatch.jpg)
@@ -111,7 +111,7 @@ Match
 ![](images/adminmatchedit.jpg)
 <br />
 
-GameWeek 
+**GameWeek**  
 <br />
 <br />
 ![](images/admingameweek.jpg)<br />
