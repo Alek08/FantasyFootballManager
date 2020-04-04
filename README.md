@@ -10,8 +10,8 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 5.Klikate Add pa go odbirate FootballManager.mdf pa potoa Ok pa povtorno Ok<br />
 6.Go otvarate proektot MSR vo IntelliJ kako java springboot aplikacija<br />
 7. vo IntelliJ vo application.properties gi stavate vasite podatoci za username i password spored SQL Server Authentication najavata vo
-Microsoft SQL Server Studio
-spring.datasource.username=???
+Microsoft SQL Server Studio<br />
+spring.datasource.username=???<br />
 spring.datasource.password=???<br />
 8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
 9.gi startuvate dvete<br />
@@ -21,7 +21,7 @@ spring.datasource.password=???<br />
 лозинката е 123456
 
 корисник е name@example.com
-лоззинка е 123456
+лозинката е 123456
 
 
 Овој проект преставува online игра каде корисниците ќе можат да креираат виртуелен фудбалски тим и да добиваат поени според  резултатите од вистински фудбалски натпревари.<br />
