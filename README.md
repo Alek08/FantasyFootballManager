@@ -12,7 +12,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 7. vo IntelliJ vo application.properties gi stavate vasite podatoci za username i password spored SQL Server Authentication najavata vo
 Microsoft SQL Server Studio
 spring.datasource.username=???
-spring.datasource.password=???
+spring.datasource.password=???<br />
 8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
 9.gi startuvate dvete<br />
 
