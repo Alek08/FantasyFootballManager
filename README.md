@@ -26,7 +26,10 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 <br />
 За да креирате тим потребно е да одберето Create Team во навигациското мени.<br />
+
 ![](images/createfantasyteam.jpg)
+
+<br />
 
 Потребно е прво да се одбере позиција па потоа да се одбере еден од играчите од листата понудени
 ![](images/fantasyteamerror.jpg)
@@ -45,7 +48,11 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 <br />
 Админот ќе може да креира тимови за наредните сезони и да додава играчи доколку има некои трансфери.<br />
+
+
 ![](images/admincreate.jpg)<br />
+
+
 ![](images/admincreate1.jpg)<br />
 
 
