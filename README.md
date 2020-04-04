@@ -13,7 +13,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 Microsoft SQL Server Studio<br />
 spring.datasource.username=???<br />
 spring.datasource.password=???<br />
-8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
+8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija i klikate na dijalogot npm-install <br />
 9.gi startuvate dvete<br />
 
 
