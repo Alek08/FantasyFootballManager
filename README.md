@@ -1,3 +1,5 @@
+Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
+
 1.potrebno e FootballManager.mdf i FootballManager_log da gi stavite na
 slednata pateka:<br />
 C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
@@ -5,11 +7,22 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 2.Otvarate Microsoft SQL Server Studio<br />
 3.se najavuvate so Windows Authentication<br />
 4.desen klik na Database pa klikate Attach<br />
-5.Add FootballManager.mdf i FootballManager_log.ldf pa potoa Ok pa povtorno Ok<br />
-
+5.Klikate Add pa go odbirate FootballManager.mdf pa potoa Ok pa povtorno Ok<br />
 6.Go otvarate proektot MSR vo IntelliJ kako java springboot aplikacija<br />
-7.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
-8.gi startuvate dvete<br />
+7. vo IntelliJ vo application.properties gi stavate vasite podatoci za username i password spored SQL Server Authentication najavata vo
+Microsoft SQL Server Studio
+spring.datasource.username=???
+spring.datasource.password=???
+8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
+9.gi startuvate dvete<br />
+
+
+админот е alek.krstevski@mail.com
+лозинката е 123456
+
+корисник е name@example.com
+лоззинка е 123456
+
 
 Овој проект преставува online игра каде корисниците ќе можат да креираат виртуелен фудбалски тим и да добиваат поени според  резултатите од вистински фудбалски натпревари.<br />
 Во оваа игра корисниците ќе можат да креираат виртуални тимови со играчи од Англиската Премиер Лига.<br />
