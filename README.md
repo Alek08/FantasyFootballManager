@@ -1,20 +1,20 @@
 Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
 
-1.potrebno e FootballManager.mdf i FootballManager_log da gi stavite na
+1. potrebno e FootballManager.mdf i FootballManager_log da gi stavite na
 slednata pateka:<br />
 C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 <br />
-2.Otvarate Microsoft SQL Server Studio<br />
-3.se najavuvate so Windows Authentication<br />
-4.desen klik na Database pa klikate Attach<br />
-5.Klikate Add pa go odbirate FootballManager.mdf pa potoa Ok pa povtorno Ok<br />
-6.Go otvarate proektot MSR vo IntelliJ kako java springboot aplikacija<br />
-7. vo IntelliJ vo application.properties gi stavate vasite podatoci za username i password spored SQL Server Authentication najavata vo
+2. Otvarate Microsoft SQL Server Studio<br />
+3. se najavuvate so Windows Authentication<br />
+4. desen klik na Database pa klikate Attach<br />
+5. Klikate Add pa go odbirate FootballManager.mdf pa potoa Ok pa povtorno Ok<br />
+6. Go otvarate proektot MSR vo IntelliJ kako java springboot aplikacija<br />
+7.  vo IntelliJ vo application.properties gi stavate vasite podatoci za username i password spored SQL Server Authentication najavata vo
 Microsoft SQL Server Studio<br />
 spring.datasource.username=???<br />
 spring.datasource.password=???<br />
-8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
-9.gi startuvate dvete<br />
+8. Go otvarate proektot virtual-football-manager kako react-Js aplikacija <br />
+9. gi startuvate dvete<br />
 
 
 админот е alek.krstevski@mail.com
