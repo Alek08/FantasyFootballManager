@@ -78,6 +78,17 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 
 
+Доколку за било каков проблем потребно е менување на податоците како на пример:<br />
+тимот падне во втора лига<br />
+играчот направи трансфер во друга лига<br />
+админот внесе погрешни податоци<br />
+админот ќе може тоа да го семени:<br />
+
+![](images/adminteam.jpg)<br />
+
+<br />
+
+![](images/adminteamedit.jpg)<br />
 
 
 
