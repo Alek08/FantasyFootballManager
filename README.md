@@ -88,7 +88,8 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 <br />
 Со одбирање на Edit копчето.<br />
-![](images/adminteamedit.jpg)<br />
+![](images/adminteamedit.jpg)
+<br />
 
 
 
@@ -96,14 +97,16 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 <br />
 Со одбирање на Edit копчето.<br />
-![](images/adminplayeredit.jpg)<br />
+![](images/adminplayeredit.jpg)
+<br />
 
 
 ![](images/adminmatch.jpg)<br />
 
 <br />
 Со одбирање на Edit копчето.<br />
-![](images/adminmatchedit.jpg)<br />
+![](images/adminmatchedit.jpg)
+<br />
 
 
 ![](images/admingameweek.jpg)<br />
