@@ -87,8 +87,26 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 ![](images/adminteam.jpg)<br />
 
 <br />
-
+Со одбирање на Edit копчето.
 ![](images/adminteamedit.jpg)<br />
+
+
+
+![](images/adminplayer.jpg)<br />
+
+<br />
+Со одбирање на Edit копчето.
+![](images/adminplayeredit.jpg)<br />
+
+
+![](images/adminmatch.jpg)<br />
+
+<br />
+Со одбирање на Edit копчето.
+![](images/adminmatchedit.jpg)<br />
+
+
+![](images/admingameweek.jpg)<br />
 
 
 
