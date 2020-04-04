@@ -86,6 +86,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 Team 
 <br />
+<br />
 ![](images/adminteam.jpg)
 <br />
 Со одбирање на Edit копчето.<br />
@@ -93,6 +94,7 @@ Team
 <br />
 
 Player 
+<br />
 <br />
 ![](images/adminplayer.jpg)
 <br />
@@ -102,6 +104,7 @@ Player
 
 Match 
 <br />
+<br />
 ![](images/adminmatch.jpg)
 <br />
 Со одбирање на Edit копчето.<br />
@@ -109,6 +112,7 @@ Match
 <br />
 
 GameWeek 
+<br />
 <br />
 ![](images/admingameweek.jpg)<br />
 
