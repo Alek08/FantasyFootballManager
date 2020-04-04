@@ -28,12 +28,14 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 ![](images/createfantasyteam.jpg)
 
 <br />
-![](images/fantasyteamerror.jpg)
+
 Потребно е прво да се одбере позиција па потоа да се одбере еден од играчите од листата понудени
+![](images/fantasyteamerror.jpg)
+
 
 <br />
 
-
+За да го зачувате тимот треба да се притисни копчето Save
 ![](images/fantasyteam.jpg)
 
 
