@@ -130,5 +130,5 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 <br />
 ![](images/images/stats.jpg)<br />
 
-
+асасас
 
