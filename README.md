@@ -27,7 +27,6 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 <br />
 За да креирате тим потребно е да одберето Create Team во навигациското мени.<br />
 ![](images/createfantasyteam.jpg)
-
 <br />
 
 Потребно е прво да се одбере позиција па потоа да се одбере еден од играчите од листата понудени
@@ -36,15 +35,35 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 
 <br />
 
-За да го зачувате тимот треба да се притисни копчето Save
+За да го зачувате тимот треба да се притисни копчето Save.<br />
 ![](images/fantasyteam.jpg)
+<br />
+
+Пред почетокот на сезоната корисниците ќе треба да ги креираат своите тимови.
+После секое коло админот ќе треба да ги внесе натпреварите врз основа на изиграните натпревари во Англиската Премиер Лига.
+<br />
+![](images/adminpanel.jpg)
+
+<br />
+Админот ќе може да креира тимови за наредните сезони и да додава играчи доколку има некои трансфери.<br />
+![](images/admincreate.jpg)
+![](images/admincreate1.jpg)
 
 
 
+![](images/admincreate2.jpg)
 
 
+![](images/admincreate3.jpg)
 
 
+![](images/admincreate4.jpg)
+
+
+![](images/admincreate5.jpg)
+
+
+![](images/admincreate6.jpg)
 
 
 
