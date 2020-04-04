@@ -119,16 +119,16 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 ![](images/Leaguetable.jpg)<br />
 
 Најавениот корисникот ќе може да ги гледа натпреварите по кола со одбирање на натпреватот ке може да ги види играчите кои постигнале погодок.
-![](images/images/gameweek.jpg)<br />
+![](images/gameweek.jpg)<br />
 
 Најавениот корисникот ќе може да ги гледа табела од сите виртуални тимови.
-![](images/images/images/fantasytable.jpg)<br />
+![](images/fantasytable.jpg)<br />
 
 Најавениот корисникот ќе може да ги види:<br />
 Најдобрите 10 играчи <br />
 5 Тимовите кои постигнале највеќе голови<br />
 <br />
-![](images/images/stats.jpg)<br />
+![](images/stats.jpg)<br />
 
-асасас
+
 
