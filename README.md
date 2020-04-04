@@ -50,8 +50,6 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 Админот ќе може да креира тимови за наредните сезони и да додава играчи доколку има некои трансфери.<br />
 
 
-![](images/admincreate.jpg)<br />
-
 Админот ќе може да креира натпревари
 Внесува два тима,играчи кои постигнале голови и асистенции и резултатот од натпреварот.
 врз основа на овие параметри се пресметуваат бодови за виртуелните тимови на следниот начин:<br />
@@ -59,6 +57,7 @@ C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
 за постигнат гол +5 поени<br />
 за асистенција + 3 поени<br />
 
+![](images/admincreate.jpg)<br />
 ![](images/admincreate1.jpg)<br />
 
 
