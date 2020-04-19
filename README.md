@@ -31,6 +31,7 @@ Login desen klik na accountot Properties
 User Mapping i Server Roles stiklirajte se
  
 ● "Connection refused: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall."
+<br />
 Vo
 SQL Server Configuration Manager
 SQL Server Network Configuration
@@ -45,9 +46,11 @@ najdole TCP port postavete go na 1433
 na primer za @Table(name = "FantasyTeams") ke treba  @Table(name = "alek.FantasyTeams")
 dokolku se pojavat dopolnitelni exceptions ignorirajte gi 
 
-● potrebno e da imate SQL Server Authentication acount
+● com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:212c09c9-4b93-4a11-92cc-b3bb96d96899
+<br />
+potrebno e da imate SQL Server Authentication acount
 bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
-com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:212c09c9-4b93-4a11-92cc-b3bb96d96899
+
 
 
 
