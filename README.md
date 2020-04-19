@@ -2,6 +2,11 @@
 
 Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
 
+potrebno e da imate SQL Server Authentication acount
+bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
+
+
+
 1.potrebno e FootballManager.mdf i FootballManager_log da gi stavite na
 slednata pateka:<br />
 C:\Program Files (x86)\Microsoft SQL Server\MSSQL12.SERVERSQL2014\MSSQL\DATA
@@ -17,6 +22,34 @@ spring.datasource.username=???<br />
 spring.datasource.password=???<br />
 8.Go otvarate proektot virtual-football-manager kako react-Js aplikacija i klikate na dijalogot npm-install <br />
 9.gi startuvate dvete<br />
+
+dokolku vi se pojavat slednite greski:
+
+● The database FootballManager is not accessible vo Microsoft SQL Server Studio (dokolku se obiduvate da napravite select):
+ potrebno e da se startuva Microsoft SQL Server Studio kako Administrator i so windows Authentication da mu dodelite na acount da gi ima site permisii vo Security 
+Login desen klik na accountot Properties 
+User Mapping i Server Roles stiklirajte se
+ 
+● "Connection refused: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall."
+Vo
+SQL Server Configuration Manager
+SQL Server Network Configuration
+Protocols for .. (site 3 da bidat enable)
+desen klik na TCP/IP
+Properties
+Ip/Adress
+najdole TCP port postavete go na 1433
+
+● Dokolku se kreiraat dopolnitelni prazni tabeli i servisite vrakaat prazni rezultati 
+(hibernate ne moze da gi prepoznae tabelite vo bazata) potrebno e na sekoj model pred imeto da dodadete alek.
+na primer za @Table(name = "FantasyTeams") ke treba  @Table(name = "alek.FantasyTeams")
+dokolku se pojavat dopolnitelni exceptions ignorirajte gi 
+
+● potrebno e da imate SQL Server Authentication acount
+bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
+com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:212c09c9-4b93-4a11-92cc-b3bb96d96899
+
+
 
 
 админот е alek.krstevski@mail.com
