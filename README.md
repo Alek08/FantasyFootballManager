@@ -45,6 +45,8 @@ najdole TCP port postavete go na 1433
 (hibernate ne moze da gi prepoznae tabelite vo bazata) potrebno e na sekoj model pred imeto da dodadete alek.
 na primer za @Table(name = "FantasyTeams") ke treba  @Table(name = "alek.FantasyTeams")
 dokolku se pojavat dopolnitelni exceptions ignorirajte gi 
+//(spring.jpa.properties.hibernate.hbm2ddl.jdbc_metadata_extraction_strategy=individually kazuva dali tabelite se pronajdeni)
+
 
 ● com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:212c09c9-4b93-4a11-92cc-b3bb96d96899
 <br />
