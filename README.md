@@ -3,7 +3,7 @@
 Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
 
 potrebno e da imate SQL Server Authentication acount
-bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
+bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication ne znam kaj vas. 
 
 
 
