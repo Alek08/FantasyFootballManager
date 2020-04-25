@@ -32,14 +32,14 @@ User Mapping i Server Roles stiklirajte se
  
 ● "Connection refused: connect. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall."
 <br />
-Vo
-SQL Server Configuration Manager
-SQL Server Network Configuration
-Protocols for .. (site 3 da bidat enable)
-desen klik na TCP/IP
-Properties
-Ip/Adress
-najdole TCP port postavete go na 1433
+Vo<br />
+SQL Server Configuration Manager<br />
+SQL Server Network Configuration<br />
+Protocols for .. (site 3 da bidat enable)<br />
+desen klik na TCP/IP<br />
+Properties<br />
+Ip/Adress<br />
+najdole TCP port postavete go na 1433<br />
 
 ● Dokolku se kreiraat dopolnitelni prazni tabeli i servisite vrakaat prazni rezultati 
 (hibernate ne moze da gi prepoznae tabelite vo bazata) potrebno e na sekoj model pred imeto da dodadete alek.
