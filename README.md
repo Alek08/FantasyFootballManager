@@ -53,8 +53,13 @@ dokolku se pojavat dopolnitelni exceptions ignorirajte gi
 potrebno e da imate SQL Server Authentication acount
 bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
 
-
-
+<br />
+Технологии:<br />
+SpringBoot<br />
+ReactJs<br />
+Microsoft Sql<br />
+d3.js<br />
+jQuery<br />
 
 
 админот е alek.krstevski@mail.com
