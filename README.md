@@ -57,7 +57,7 @@ bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated au
 Технологии:<br />
 SpringBoot<br />
 ReactJs<br />
-Microsoft Sql<br />
+Microsoft SQL<br />
 d3.js<br />
 jQuery<br />
 
