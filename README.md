@@ -1,5 +1,14 @@
 ## Александар Крстевски 156013 Овој проект е семинарска по предметот веб програмирање на факултетот ФИНКИ 
 
+<br />
+Технологии:<br />
+SpringBoot<br />
+ReactJs<br />
+Microsoft SQL<br />
+d3.js<br />
+jQuery<br />
+<br />
+
 Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
 
 potrebno e da imate SQL Server Authentication acount
@@ -53,13 +62,6 @@ dokolku se pojavat dopolnitelni exceptions ignorirajte gi
 potrebno e da imate SQL Server Authentication acount
 bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication. 
 
-<br />
-Технологии:<br />
-SpringBoot<br />
-ReactJs<br />
-Microsoft SQL<br />
-d3.js<br />
-jQuery<br />
 
 
 админот е alek.krstevski@mail.com
