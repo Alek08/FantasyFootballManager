@@ -1,4 +1,3 @@
-<br />
 Технологии:<br />
 SpringBoot<br />
 ReactJs<br />
@@ -11,7 +10,6 @@ jQuery<br />
 
 potrebno e da imate SQL Server Authentication acount
 bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated authentication ne znam kaj vas. 
-
 
 
 1.potrebno e FootballManager.mdf i FootballManager_log da gi stavite na
