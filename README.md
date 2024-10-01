@@ -1,10 +1,129 @@
-Технологии:<br />
+Technology:<br />
 SpringBoot<br />
 ReactJs<br />
 Microsoft SQL<br />
 d3.js<br />
 jQuery<br />
 <br />
+
+This project represents an online game where users will be able to create a virtual football team and receive points according to the results of real football matches.<br />
+In this game users will be able to create virtual teams with players from the English Premier League.<br />
+
+
+![](images/home.jpg)<br />
+
+<br />
+In order for a user to participate in this game, it is necessary to register and create a virtual team.<br />
+
+![](images/register.jpg)
+After registering you will need to log in<br />
+![](images/login.jpg)
+
+<br />
+To create a team you need to select Create Team in the navigation menu.<br />
+
+![](images/createfantasyteam.jpg)
+
+<br />
+
+It is necessary to first select a position and then select one of the players from the list offered
+![](images/fantasyteamerror.jpg)
+
+
+<br />
+
+To save the team, press the Save button.<br />
+![](images/fantasyteam.jpg)
+<br />
+
+Before the start of the season, users will have to create their teams.
+After each round the admin will have to enter the matches based on the matches played in the English Premier League.
+<br />
+![](images/adminpanel.jpg)
+
+<br />
+The admin will be able to create teams for the upcoming seasons and add players if there are any transfers.<br />
+
+
+Admin will be able to create matches
+Enter two teams, players who scored goals and assists and the result of the match.
+based on these parameters, points are calculated for the virtual teams in the following way:<br />
+if the team of the player who is selected in the virtual team wins, the player gets + 3 if it is a draw + 1 if the team loses, there are no points. <br />
+for a scored goal +5 points<br />
+for assistance + 3 points<br />
+
+![](images/admincreate.jpg)<br />
+![](images/admincreate1.jpg)<br />
+
+
+
+![](images/admincreate2.jpg)<br />
+
+
+It is necessary to save all entered information on the Save button, followed by validation, if everything is successful, a green dialog will be displayed, if not red.<br />
+![](images/admincreate3.jpg)<br />
+
+The admin creates a Circle
+![](images/admincreate4.jpg)<br />
+
+The admin enters the match into the round.
+![](images/admincreate6.jpg)<br />
+
+![](images/admincreate5.jpg)<br />
+
+
+
+If for any problem it is necessary to change the data, for example:<br />
+the team falls into the second league<br />
+the player made a transfer to another league<br />
+admin entered wrong data<br />
+the admin will be able to change it:<br />
+
+**Team**
+<br />
+![](images/adminteam.jpg)
+<br />
+By selecting the Edit button.<br />
+![](images/adminteamedit.jpg)
+<br />
+
+**Player**
+<br />
+![](images/adminplayer.jpg)
+<br />
+By selecting the Edit button.<br />
+![](images/adminplayeredit.jpg)
+<br />
+
+**Match**
+<br />
+![](images/adminmatch.jpg)
+<br />
+By selecting the Edit button.<br />
+![](images/adminmatchedit.jpg)
+<br />
+
+**GameWeek**
+<br />
+![](images/admingameweek.jpg)<br />
+
+The logged in user will be able to watch the matches and the results.
+![](images/matchresult.jpg)<br />
+
+The logged in user will be able to view the current table of the English Premier League
+![](images/Leaguetable.jpg)<br />
+
+The logged in user will be able to watch the matches by round by selecting the match, he will be able to see the players who scored a goal.
+![](images/gameweek.jpg)<br />
+
+The logged in user will be able to see the table of all virtual teams.
+![](images/fantasytable.jpg)<br />
+
+The logged in user will be able to see:<br />
+Top 10 players <br />
+5 The teams that scored the most goals<br />
+<br />
+![](images/stats.jpg)<br />
 
 Во ова git repository постои база која е пополнета со примери(тимови,играчи,натпревари,админ,корисник)
 
@@ -65,126 +184,5 @@ bidejki driverot sto go imam na mmojot lap-top ne podrzuva windows integrated au
 
 корисник е name@example.com
 лозинката е 123456
-
-
-Овој проект преставува online игра каде корисниците ќе можат да креираат виртуелен фудбалски тим и да добиваат поени според  резултатите од вистински фудбалски натпревари.<br />
-Во оваа игра корисниците ќе можат да креираат виртуални тимови со играчи од Англиската Премиер Лига.<br />
-
-
-![](images/home.jpg)<br />
-
-<br />
-За да еден корисник учествува во оваа игра потребно е да се регистрира и да креира виртуален тим.<br />
-
-![](images/register.jpg)
-Откако ќе се регистрира ќе треба да се најави<br />
-![](images/login.jpg)
-
-<br />
-За да креирате тим потребно е да одберето Create Team во навигациското мени.<br />
-
-![](images/createfantasyteam.jpg)
-
-<br />
-
-Потребно е прво да се одбере позиција па потоа да се одбере еден од играчите од листата понудени
-![](images/fantasyteamerror.jpg)
-
-
-<br />
-
-За да го зачувате тимот треба да се притисни копчето Save.<br />
-![](images/fantasyteam.jpg)
-<br />
-
-Пред почетокот на сезоната корисниците ќе треба да ги креираат своите тимови.
-После секое коло админот ќе треба да ги внесе натпреварите врз основа на изиграните натпревари во Англиската Премиер Лига.
-<br />
-![](images/adminpanel.jpg)
-
-<br />
-Админот ќе може да креира тимови за наредните сезони и да додава играчи доколку има некои трансфери.<br />
-
-
-Админот ќе може да креира натпревари
-Внесува два тима,играчи кои постигнале голови и асистенции и резултатот од натпреварот.
-врз основа на овие параметри се пресметуваат бодови за виртуелните тимови на следниот начин:<br />
-доколку тимот на играчот кој што е избран во виртуелниот тим победи играчот добива + 3 ако е нерешено + 1 дололку изгуби тимот нема поени. <br />
-за постигнат гол +5 поени<br />
-за асистенција + 3 поени<br />
-
-![](images/admincreate.jpg)<br />
-![](images/admincreate1.jpg)<br />
-
-
-
-![](images/admincreate2.jpg)<br />
-
-
-Потребно е да се зачуваат сите внесени информаци на копчето Save по што следува валидација доколку се е успешно ќе се прикаже зелен дијалог доколку не црвен.<br />
-![](images/admincreate3.jpg)<br />
-
-Админот креира Коло
-![](images/admincreate4.jpg)<br />
-
-Админот го внесува натпреварот во колото.
-![](images/admincreate6.jpg)<br />
-
-![](images/admincreate5.jpg)<br />
-
-
-
-Доколку за било каков проблем потребно е менување на податоците како на пример:<br />
-тимот падне во втора лига<br />
-играчот направи трансфер во друга лига<br />
-админот внесе погрешни податоци<br />
-админот ќе може тоа да го семени:<br />
-
-**Team** 
-<br />
-![](images/adminteam.jpg)
-<br />
-Со одбирање на Edit копчето.<br />
-![](images/adminteamedit.jpg)
-<br />
-
-**Player** 
-<br />
-![](images/adminplayer.jpg)
-<br />
-Со одбирање на Edit копчето.<br />
-![](images/adminplayeredit.jpg)
-<br />
-
-**Match**  
-<br />
-![](images/adminmatch.jpg)
-<br />
-Со одбирање на Edit копчето.<br />
-![](images/adminmatchedit.jpg)
-<br />
-
-**GameWeek**  
-<br />
-![](images/admingameweek.jpg)<br />
-
-Најавениот корисникот ќе може да ги гледа натпреварите и резулататите.
-![](images/matchresult.jpg)<br />
-
-Најавениот корисникот ќе може да ја гледа моменталната табела на Англиската Премиер Лига
-![](images/Leaguetable.jpg)<br />
-
-Најавениот корисникот ќе може да ги гледа натпреварите по кола со одбирање на натпреватот ке може да ги види играчите кои постигнале погодок.
-![](images/gameweek.jpg)<br />
-
-Најавениот корисникот ќе може да ги гледа табела од сите виртуални тимови.
-![](images/fantasytable.jpg)<br />
-
-Најавениот корисникот ќе може да ги види:<br />
-Најдобрите 10 играчи <br />
-5 Тимовите кои постигнале највеќе голови<br />
-<br />
-![](images/stats.jpg)<br />
-
 
 
